@@ -147,10 +147,10 @@ letter-spacing: 0.02em;
  color: var(--second-color);
 transition: color var(--transition-dur-and-func);
 }
- .curent{
+ .link.current{
    color: var(--main-btn-color);
 }
-.curent::after{
+.current::after{
 content: '';
 position: absolute;
 margin-top: 20px;
